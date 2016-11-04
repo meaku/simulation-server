@@ -1,5 +1,9 @@
-FROM node:6.8-onbuild
+FROM node:7-onbuild
 
-# replace this with your application's default port
+# H2
 EXPOSE 3002
+EXPOSE 3022
+
+# H1
 EXPOSE 3001
+EXPOSE 3011
